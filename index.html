@@ -7,6 +7,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <title>project</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+    text-align: center;
+    text-decoration:underline;
+} */
+
+#search h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#search {
+    margin-top: 20px;
+    border: 5px solid rgb(179, 177, 177);
+}
+
+#search input {
+    padding-left: 7px;
+    font-size: large;
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+}
+
+#btn {
+    padding: 9px;
+    width: 90px;
+    font-size: large;
+    height: 45px;
+}
+
+
+
+
+
+
+h1{
+    text-align: center;
+    text-decoration:underline;
+}
+input{
+    margin-left: 2%;
+    width: 250px;
+    height: 28px;
+}
+.main{
+    height: 150px;
+    border: 5px solid grey;
+    width: 809px;
+    margin-left: 25%;
+}
+button{
+    height: 34px;
+    width: 74px;
+}
+input[type = "radio"]{
+    appearance: none;           
+    height: 1.5rem;
+    width: 1.5rem;
+    border:2px solid black;
+    border-radius: 50%;
+    offset: 1rem;
+    
+
+}
+.my_form{
+    margin-left:42%;
+    width:18%;
+    
+    border-bottom-right-radius: 20px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: white;
+    border: transparent;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+
+
+input[type="radio"]:checked{
+    background-color: var(--radio-color);
+}
+#light{
+    --radio-color: rgb(143, 136, 136);
+}
+#blue{
+    --radio-color: rgb(29, 83, 201);
+}
+#babyPink{
+    --radio-color: pink;
+}
+
+#orange{
+    --radio-color: green;
+}
+#dark{
+    --radio-color: rgb(8, 7, 7);
+}
+
+
+:root:has(#babyPink:checked){
+    background-color:rgb(242,172,185);
+    color: rgb(129, 17, 235);
+}
+
+:root:has(#blue:checked){
+    background-color:  rgb(95, 128, 200);
+    color: white;
+}
+:root:has(#light:checked){
+    background-color: rgb(143, 136, 136);
+    color: rgb(101, 95, 95);
+}
+
+:root:has(#orange:checked){
+    background-color: green;
+    color: black;
+}
+
+
+:root:has(#dark:checked){
+    color: white;
+    background-color: rgb(10, 9, 9);
+}
+    </style>
 </head>
 
 <body>
